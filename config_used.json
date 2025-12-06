@@ -1,0 +1,19 @@
+{
+    "MODEL_NAME": "neuralmind/bert-base-portuguese-cased",
+    "DATASET_PATH": "/content/dataset_ementas_trt.txt",
+    "OUTPUT_DIR": "/content/results",
+    "SEED": 42,
+    "EPOCHS_FT": 8,
+    "EPOCHS_SCRATCH": 15,
+    "BATCH_SIZE": 4,
+    "GRADIENT_ACCUMULATION_STEPS": 4,
+    "FP16": true,
+    "LR_FT": 5e-5,
+    "LR_SCRATCH": 1e-4,
+    "MAX_POSITION_EMBEDDINGS_SCRATCH": 1024,
+    "MAX_LENGTH": 512,
+	"SIZES": [500, 1000, 2000, 3000, 4000, 5000],
+	"TOKENIZER_PATH": "/content/results/custom_tokenizer",
+	"TOKENIZER_VOCAB_SIZE": 30000,
+	"TEST_SIZE": 0.1
+}
