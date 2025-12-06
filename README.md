@@ -22,7 +22,7 @@ Avaliar como diferentes estratégias de adaptação de domínio - incluindo vari
 Para garantir a replicação fiel do experimento, siga os passos abaixo:
 
 1. **Ambiente:** Utilize o Google Colab com GPU T4.
-2. **Dependências:** Instale exatamente as versões listadas no arquivo `config_used.json`.
+2. **Dependências:** Instale exatamente as versões listadas no arquivo `notebook.ipynb`.
 3. **Dataset:** O dataset utilizado deve ser carregado manualmente no ambiente com o nome `dataset_ementas_trt.txt`.
 4. **Execução:** Execute o arquivo `notebook.ipynb` célula por célula.
 5. **Resultados:** Os artefatos gerados serão salvos automaticamente dentro da pasta `results/`.
